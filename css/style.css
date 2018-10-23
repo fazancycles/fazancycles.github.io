@@ -151,10 +151,18 @@ body {
 	max-height: 230px;
 	}	
 
+.b-gallery__img:nth-child(1) {
+	border-bottom-left-radius: 20px;
+	}		
+.b-gallery__img:nth-child(3) {
+	border-top-right-radius: 20px;
+	}	
+	
 .b-about {
 	margin: 0 auto;
 	width:100%;
 	color: white;
+	background-color:#111;
 	background: url(https://pp.userapi.com/c621700/v621700996/63b3/QdjkzWZ5ja0.jpg) no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
