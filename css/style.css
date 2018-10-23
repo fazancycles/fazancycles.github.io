@@ -151,10 +151,10 @@ body {
 	max-height: 230px;
 	}	
 
-.b-gallery__img:nth-child(1) {
+.b-gallery__item:nth-child(1) .b-gallery__img {
 	border-bottom-left-radius: 20px;
 	}		
-.b-gallery__img:nth-child(3) {
+.b-gallery__item:nth-child(3) .b-gallery__img {
 	border-top-right-radius: 20px;
 	}	
 	
