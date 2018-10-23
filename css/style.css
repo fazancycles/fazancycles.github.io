@@ -166,10 +166,10 @@ body {
 	}
 	
 .b-about__title, .b-about__text {
-	background: #000;
+	-background: #000;
 	font-weight:normal;
 	padding: 5px;
-	opacity:0.8;
+	-opacity:0.8;
 	}
 
 .b-footer {
