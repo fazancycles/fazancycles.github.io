@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FAZAN cycles</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Yanone+Kaffeesatz&amp;subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+</head>
+
+
+<body>
+<header class="b-header">
+	<nav class="b-navigation">
+		<ul class="b-navigation__list">
+			<li class="b-navigation__item"><a class="b-navigation__link" href=#>Галерея</a></li>
+			<li class="b-navigation__item"><a class="b-navigation__link" href=#>Процесс</a></li>
+			<li class="b-navigation__item"><a class="b-navigation__link" href=#>Цены</a></li>
+			<li class="b-navigation__item"><a class="b-navigation__link" href=#>Контакты</a></li>
+		</ul>
+	</nav>
+</header>
+
+<aside class="b-slider">
+	<div class="cycle-slideshow" data-cycle-speed="600">
+		<img class="b-slider__image cycle-slide" src="img/slider/polo.jpg">
+		<img class="b-slider__image cycle-slide" src="img/slider/lesaluga.jpg">
+	</div>
+</aside>
+
+<article class="b-gallery">
+	<h2 class="b-gallery__title">Заголовок</h2>
+	<ul class="b-gallery__list">
+		<li class="b-gallery__item">
+		<h2 class="b-gallery__item_title">Наименование</h2>
+		<a href="#" class="b-gallery__link">
+		<img class="b-gallery__img" src="img/gallery/01.jpg">
+		</a>
+		<p>Текст</p></li>
+		<li class="b-gallery__item">
+		<h2 class="b-gallery__item_title">Наименование</h2>
+		<a href="#" class="b-gallery__link"><img class="b-gallery__img" src="img/gallery/02.jpg"></a><p>Текст</p></li>
+		<li class="b-gallery__item">
+		<h2 class="b-gallery__item_title">Наименование</h2>
+		<a href="#" class="b-gallery__link"><img class="b-gallery__img" src="img/gallery/03.jpg"></a><p>Текст</p></li>
+	</ul>
+</article>
+
+<article class="b-about">
+	<h2 class="b-about__title">О FAZAN cycles</h1>
+	<p class="b-about__text">Текст текст текст текст текст Текст текст текст текст текст Текст текст текст текст текст Текст текст текст текст текст</p>
+	<p class="b-about__text">Текст текст текст текст текст Текст текст текст текст текст Текст текст текст текст текст Текст текст текст текст текст</p>
+</article>
+
+
+
+<footer class="b-footer">
+	<h2 class="b-footer__title">Контакты</h2>
+	<p class="b-footer__address">г.Курск<br>ул.Типография ХХ<br><a class="b_footer__mail" href="">email@fazan.ru</a>
+	</p>
+	<ul class="b-footer__list">
+		<li class="b-footer__item"></li>
+	</ul>
+</footer>
+
+<script>
+	$(document).on("scroll", function(){
+		if
+      ($(document).scrollTop() > 100){
+		  $(".b-navigation__list").addClass("m-shrink");
+		}
+		else
+		{
+			$(".b-navigation__list").removeClass("m-shrink");
+		}
+	});
+</script>
+
+</body>
+
+</html>
