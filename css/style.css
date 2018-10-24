@@ -292,6 +292,11 @@ body {
 	color: #cc0000;
 	}
 	
+ 
+.b_footer__link:before {
+	content: "\2709";
+	}	
+	
 @media (max-width: 846px) {
 	.b-navigation__link {font-size: 2em}
 }	
