@@ -258,6 +258,10 @@ body {
 	font-weight: normal;
 	}
 
+.b_footer__link:before {
+	content: "\2709";
+	}	
+
 .b_footer__link:hover {
 	color: #cc0000;
 	}
